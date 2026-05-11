@@ -2,6 +2,7 @@ import React from 'react'
 import { FaDiamond } from "react-icons/fa6";
 import { IoCallOutline } from "react-icons/io5";
 import { IoMailOutline } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
 function Project() {
  
   return (
@@ -100,12 +101,15 @@ function Project() {
          </div>
  <footer className="bg-gray-700 text-white flex flex-col items-center justify-center p-4  w-full h-1/12 ">
       <div className='flex gap-2'>
-       <IoCallOutline className='size-6' /> 
-      <p>+91 6379765840</p>
+       < FaWhatsapp className='size-6' /> 
+       <a  href="https://wa.me/916379765840"   target="_blank"  className="text-white">
+       +91 6379765840 </a>
+    
      </div>
       <div className='flex gap-2'>
        <IoMailOutline className='size-6'/>
-        <p>manjuladhana11@gmail.com</p>
+       <a  href="mailto:manjuladhana11@gmail.com"  className="hover:text-cyan-300 ">
+       manjuladhana11@gmail.com</a>
       </div>
     </footer>
      
